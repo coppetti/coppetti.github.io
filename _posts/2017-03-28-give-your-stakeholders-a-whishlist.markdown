@@ -4,7 +4,7 @@ The use of Parking Lot does not apply as the ideal solution since it does not ha
 
 Using a Scrum board or a Kanban (for teams using Lean or Scrumban), we can define a lane to populate with items that are not critical, or planned in this sprint, working on them at the right time and make your stakeholders happy.
 
-[wishlist](../images/wishlist.png)
+![wishlist](../../../images/wishlist.png)
 
 As you can see in the figure above, the use of a wishlist is very simple and can be added to every existent kanban/scrum board.
 It is a good way to deal with stakeholder's requests at the same time it keeps the team focus on the sprint planning and critical features.
