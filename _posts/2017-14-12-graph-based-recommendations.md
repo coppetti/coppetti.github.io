@@ -27,7 +27,7 @@ Here, we propose a graph-based approach to solve the challenges in recommendatio
 ## Graph Data for Restaurants Recommendation
 Our data contains information about Customers, Restaurants and Cuisines. The way data link can be seen in Figure 1.
 
-![img1](images/meta.png)
+![img1](/images/meta.png)
 
 The node Person contains the data that describe Restaurant customers. This node has the following attributes: id, name and gender. 
 
@@ -74,7 +74,7 @@ Given the previous scenario we described, we can recommend Audra with the follow
 
 The output graph for this recommendation can be seen in Figure 2.
 
-![img2](images/reco1.png)
+![img2](/images/reco1.png)
 
 
 The previous approach of recommending restaurants based on user's friends sometimes could not be the best choice. If we want to advise a list of restaurants that match user's cuisine preferences, we need to follow a different solution.
@@ -113,8 +113,8 @@ After performing the previous steps, we can recommend the following restaurants:
 
 The output graphs for Audra's favourite cuisines and top 5  recommendations can be seen in Figures 3 and 4.
 
-![img3](images/favcuisines.png)
-![img4](images/reco2.png)
+![img3](/images/favcuisines.png)
+![img4](/images/reco2.png)
 
 ## Final Thoughts
 Here we showed how simple is to create a Graph-Based Recommendation System, but there are much more possibilities on using graphs for recommendations using Geo-Based data, Social Media content, Marketing Campaign outputs, etc. 
