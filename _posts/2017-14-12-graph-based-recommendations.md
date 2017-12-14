@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using graphs to recommend restaurants"
-date: 2017-03-28 12:00:00
+date: 2017-12-14 12:00:00
 image: '/assets/img/meta.png'
 description: 'about tech'
 tags:
