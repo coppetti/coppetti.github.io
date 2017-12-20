@@ -161,15 +161,15 @@ ORDER BY r,l1,l2,l3
 
 The example above can be split into 10 steps:
 
-Step 1 - Locate the root node and the total amount of its payments (paid and received);
-Step 2 - Start evaluating the first level of our tree. We also sum all payments for every client at this level;
-Step 3 - To be able to continue expanding the tree, in this step we need to find the "local roots" and the total amount of their payments;
-Step 4 - Same as Step 2, but for level 2;
-Step 5 - Same as Step 3, but this time, we need to find the roots at level 2;
-Step 6 - Same as Step 2, but for level 3;
-Step 7 - At this step, we start evaluating the risk impact at each level (or sub-tree). We assess the impact of the payments to/from a child node for its Parent (root);
-Steps 8 and 9 - As our level 1 is already both global and local in terms of impact (this level is directed linked with the root), we start on level 2. At these step, we assess the global impact o each node in the entire tree (direct impact to our root node);
-Step 10 - Here, we return the data.
+* Step 1 - Locate the root node and the total amount of its payments (paid and received);
+* Step 2 - Start evaluating the first level of our tree. We also sum all payments for every client at this level;
+* Step 3 - To be able to continue expanding the tree, in this step we need to find the "local roots" and the total amount of their payments;
+* Step 4 - Same as Step 2, but for level 2;
+* Step 5 - Same as Step 3, but this time, we need to find the roots at level 2;
+* Step 6 - Same as Step 2, but for level 3;
+* Step 7 - At this step, we start evaluating the risk impact at each level (or sub-tree). We assess the impact of the payments to/from a child node for its Parent (root);
+* Steps 8 and 9 - As our level 1 is already both global and local in terms of impact (this level is directed linked with the root), we start on level 2. At these step, we assess the global impact o each node in the entire tree (direct impact to our root node);
+* Step 10 - Here, we return the data.
 
 In our study, we expanded our tree until level 3, but it could grow how many levels we want. Following our Cypher statement above, we could easily adapt steps 3 and 4 for other levels, as we did in steps 5 and 6 for level 3. Also, we need to replicate Step 8 (as we did in step 9) for the remaining levels we want.
 
